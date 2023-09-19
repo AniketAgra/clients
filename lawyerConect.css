@@ -1,0 +1,127 @@
+
+.wrapper h1{
+    margin-top: 60px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.wrapper .head{
+    margin: 30px;
+    font-size: large;
+}
+.wrapper h3{
+    color: #000;
+    margin: 0;
+    font-size: 30px;
+    font-family: inherit;
+    font-weight: 300;
+    line-height: 1.1;
+}
+.wrapper h2{
+    color: #000;
+    margin: 0;
+    font-size: 29px;
+    font-family: inherit;
+    font-weight: 300;
+    line-height: 1.1;
+}
+.wrapper h4{
+    font-size: 15px;
+}
+.wrapper .h{
+    font-size: 15px;
+    line-height: 35px;
+    color: #333;
+    margin-bottom: 0;
+    margin: 0 0 10px;
+}
+.wrapper a{
+    color: #337ab7;
+    background-color: transparent;
+    text-decoration: none;
+}
+.wrapper #lawyer-listing{
+    cursor:pointer;
+     background-color:#f2f2f2; 
+     border-radius:4px;
+     padding:2px;
+}
+.wrapper .pulse{
+    margin:2px;
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #3bda3b;
+    animation: 2s infinite;
+}
+.wrapper .container{
+    display: grid;
+   grid-template-columns: repeat(2,48%);
+  gap: 15px;
+  margin: 20px;
+  margin-right: 25px;
+  overflow: visible;
+
+
+  /* overflow-x: hidden; */
+}
+.wrapper .advocate{
+    border-radius: 20px;
+    width: 120px;
+    filter:drop-shadow(0 0 5px #333);
+margin: 5px;
+margin-right: 10px;
+    
+}
+.wrapper img{
+   
+    margin: 3px;
+}
+.wrapper .border{
+    border: solid rgb(243, 234, 185);
+    display:flex;
+    border-radius: 20px;
+}
+.wrapper .button{
+   
+   font-size: 15px;
+   color: white;
+}
+.wrapper .location {
+    margin:8px;
+    display: flex;
+    align-items: center;
+}
+.wrapper .score{
+    font-size: 15px;
+    line-height: 24px;
+    color: #333;
+    margin-bottom: 0;
+    margin: 0 0 10px;
+}
+.wrapper .side{
+    margin-left: 56px;
+}
+.wrapper .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 34px;
+    background-color: rgb(22, 22, 246);
+    margin: 8px;
+    
+    
+}
+.wrapper .button:hover{
+    transform: scale(1.06);
+    color: rgb(46, 45, 45);
+}
+.wrapper .box:hover{
+    transform: scale(1.06);
+}
+
+
